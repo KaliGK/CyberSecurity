@@ -13,7 +13,7 @@ print(title)
 
 GeoIP_DB_Path = 'GeoLite2-City.mmdb'
 hec_url = "https://127.0.0.1:8088/services/collector"
-hec_token = "b39a344e-3d3c-4554-830c-5976cb274400"
+hec_token = "your hec token"
 
 def capture_traffic(output_file='captured.pcap', count=1000):
     print("Currently capturing live traffic")
